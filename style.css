@@ -1,0 +1,103 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #2A6FCE;
+}
+.linkedin {
+    border-radius: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+footer { 
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: dodgerblue;
+}
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#aboutme{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: dodgerblue;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.backtotop {
+    color: white;
+}
+
+.bio {
+    text-align: center;
+    
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+.apps {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #2A6FCE;
+    justify-content: center;
+}
+
+.contact {
+    color: white;
+}
+
+.photos :hover {
+    box-shadow: 20px 20px 5px white;
+    box-sizing: content-box;
+}
+
+@media screen and (max-width: 992px) {
+    .apps{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .apps {
+        width: 100%;
+    }
+    
+}
+
+
