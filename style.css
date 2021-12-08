@@ -3,10 +3,11 @@
 }
 
 body {
-    background-color: #2A6FCE;
+    background-color: #27C0C6;
 }
 .linkedin {
     border-radius: 25px;
+    
 }
 
 html {
@@ -15,6 +16,7 @@ html {
 header {
     background-color: dodgerblue;
     color: white;
+    
 }
 
 footer { 
@@ -26,6 +28,7 @@ footer {
 h1 {
     color: white;
     text-align: center;
+
 }
 
 #aboutme{
@@ -83,21 +86,21 @@ li {
 }
 
 .photos :hover {
-    box-shadow: 20px 20px 5px white;
+    box-shadow: 20px 20px 5px #27C0C6;
     box-sizing: content-box;
 }
 
-@media screen and (max-width: 992px) {
-    .apps{
-        width: 50%;
-    }
-}
+/* @media screen and (max-width: 992px) { */
+    /* .apps{ */
+        /* width: 50%; */
+    /* } */
+/* } */
 
-@media screen and (max-width: 768px) {
-    .apps {
-        width: 100%;
-    }
+/* @media screen and (max-width: 768px) { */
+    /* .apps { */
+        /* width: 100%; */
+    /* } */
     
-}
+/* } */
 
 
